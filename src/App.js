@@ -8,7 +8,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getMessageData());
-  }, []);
+  }, [dispatch]);
   return (
     <BrowserRouter>
       <Routes>
