@@ -1,3 +1,4 @@
+/* eslint no-param-reassign: "error" */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const API = 'http://127.0.0.1:3000/api/greetings';
@@ -16,7 +17,6 @@ export const getMessageData = createAsyncThunk('message/getMessageData', async (
         'Access-Control-Allow-Origin': '*',
       }});
      const data = await response.json();
-     console.log(data);
      return data;
 });
 
@@ -28,7 +28,6 @@ const messageSlice = createSlice({
             state.isLoading = true;
           });
           builder.addCase(getMessageData.fulfilled, (state, action) => {
-            console.log(action.payload);
             state.message = action.payload;
             state.isLoading = false;
           });
