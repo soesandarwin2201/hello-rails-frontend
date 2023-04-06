@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[hello rails backend\] ](#-hello-rails-backend-)
+- [📖 \[hello rails frontend\] ](#-hello-rails-frontend-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -87,8 +87,8 @@ Navigate to the folder
 ```
 cd repo-name hello-rails-frontend
 ```
-## Frontend hello-rails-frontend 
-git clone https://github.com/soesandarwin2201/hello-rails-frontend
+## Frontend hello-rails-backend 
+git clone https://github.com/soesandarwin2201/hello-rails-backend
 
 ### Prerequisites
 
